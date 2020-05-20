@@ -1,0 +1,28 @@
+const colors = {
+  white: "#ffffff",
+  black: "#000000",
+  primary: "#DB0011",
+  blue: "#0275D8",
+  green: "#00847F",
+  grey1: "#EDEDED",
+  grey2: "#646464",
+  grey3: "#333333",
+  veryLightGray: "#E5E5E5",
+  background: "#F9F9F9",
+  lowEmphasis: "#9E9E9E",
+  mediumEmphasis: "#666666",
+  highEmphasis: "#212121",
+  hyperlink: "#0275D8",
+  info: "#305A85",
+  success: "#00847F",
+  warning: "#E9A115",
+  error: "#A8000B",
+  hover: "#AD0012",
+  transparent: "transparent",
+  disabled: "#D7D8D6",
+  outline: "#0275D8",
+  platinum: "#e4e4e4",
+  badge:'#DB0011',
+};
+
+export default colors;
