@@ -1,4 +1,4 @@
-# cxa-shop-ui
+# shop-ui
 UI framework for eCommerce based on React.js and Material-UI.
 
 
@@ -39,7 +39,6 @@ NA
 
 ## Authors
 
-**CXAGroup**
 
 ## FAQs
 
