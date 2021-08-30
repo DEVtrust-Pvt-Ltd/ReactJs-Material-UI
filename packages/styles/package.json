@@ -1,0 +1,33 @@
+{
+    "name": "@cxa-shop-ui/styles",
+    "version": "0.0.0",
+    "author": "Cxagroup Web Team",
+    "description": "CXA Shop UI for shared style related stuff",
+    "main": "./src/index.js",
+    "keywords": [
+        "react",
+        "react-component",
+        "material-ui",
+        "cxa-shop-ui",
+        "styles"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/cxagroup/shop-ui.git",
+        "directory": "packages/styles"
+      },
+      "scripts": {
+        "build": "yarn build:cjs && yarn build:esm && yarn build:copy-files",
+        "build:cjs": "cross-env NODE_ENV=production BABEL_ENV=cjs babel --config-file ../../babel.config.js ./src --out-dir ./build --ignore **/*.stories.js,**/*.spec.js",
+        "build:esm": "cross-env NODE_ENV=production BABEL_ENV=esm babel --config-file ../../babel.config.js ./src --out-dir ./build/esm --ignore **/*.stories.js,**/*.spec.js",
+        "build:copy-files": "node ../../scripts/copy-files.js",
+        "prebuild": "rimraf build"
+      },
+      "peerDependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+      },
+      "engines": {
+        "node": ">=8.0.0"
+      }
+}

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner Component should match snapshot when properties are present 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-4 makeStyles-iconsPosition-2"
+  >
+    <div
+      data-testid="auto-play-swipeable-views"
+      style="overflow-x: hidden;"
+    >
+      <div
+        class="react-swipeable-view-container"
+        style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform;"
+      >
+        <div
+          aria-hidden="false"
+          data-swipeable="true"
+          style="width: 100%; flex-shrink: 0; overflow: auto;"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-5"
+          >
+            <img
+              alt="Images"
+              class="makeStyles-banner-1"
+              role="presentation"
+              src="https://choices.cxapalawan.com/pub/media/weltpixel/owlcarouselslider/images/l/a/cache/1200x350/landing_page-02_1_.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
